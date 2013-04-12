@@ -21,6 +21,6 @@ Refatorações já executadas
 * Consolidar fragmentos condicionais duplicados (208)
 * Subir campo na hierarquia (274)
 * Subir método na hierarquia (275)
-* ?
+* Substituir delegacao por heranca (302)
 * ?
 * Substituir registro por classe de dados (187)
