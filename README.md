@@ -24,3 +24,4 @@ Refatorações já executadas
 * Substituir delegacao por heranca (302)
 * ?
 * Substituir registro por classe de dados (187)
+* Substituis números mágicos por constantes simbólicas (177)
