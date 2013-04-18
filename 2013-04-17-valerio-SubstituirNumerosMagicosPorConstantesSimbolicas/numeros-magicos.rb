@@ -1,17 +1,19 @@
 class Formula
 
+	CONSTANTE_GRAVITACIONAL = 9.81
+	CONSTANTE_PLANCK = 6.6
+
 	def energia_potencial(massa, altura)
-		massa * 9.81 * altura
+		massa * CONSTANTE_GRAVITACIONAL * altura
 	end	
 
 	def energia_foton(frequencia)
-		6.6 * frequencia
+		CONSTANTE_PLANCK * frequencia
 	end	
 
 end
 
 require "test/unit"
-
 class TestFormula < Test::Unit::TestCase
 
 	def test_energia_potencial
