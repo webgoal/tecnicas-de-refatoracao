@@ -1,9 +1,6 @@
-package webgoal.athlete;
-
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
 
 public class ExemploTest {
 
